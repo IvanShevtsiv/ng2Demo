@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ABB18873-237B-49D9-9D52-4FE9A16B22AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8D64D038-9756-426E-B230-3972890061C8}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ng2Core", "src\ng2Core\ng2Core.xproj", "{488885AE-864C-4D14-B76C-0DBC4FD146E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{488885AE-864C-4D14-B76C-0DBC4FD146E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488885AE-864C-4D14-B76C-0DBC4FD146E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488885AE-864C-4D14-B76C-0DBC4FD146E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488885AE-864C-4D14-B76C-0DBC4FD146E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{488885AE-864C-4D14-B76C-0DBC4FD146E7} = {ABB18873-237B-49D9-9D52-4FE9A16B22AF}
+	EndGlobalSection
+EndGlobal
